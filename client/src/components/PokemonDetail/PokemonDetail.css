@@ -1,0 +1,27 @@
+#pokemonImg{
+    width: 15%;
+    height: 15%;
+    margin: auto;
+    
+}
+#name{
+    font-family: Lucida, monospace;
+    text-transform:capitalize
+}
+#name{
+    justify-content: space-around;
+    margin: 0.625rem;
+    border-style: inset;
+    border-color: rgb(139, 129, 213);
+    background-color: rgba(255, 255, 255, 0.698);
+}
+#stats{
+    border-style: inset;
+    border-color: rgb(139, 129, 213);
+    background-color: rgba(255, 255, 255, 0.698);
+}
+
+#details{
+    margin-top: 32px;
+    background-color: #d0e5d9;
+}

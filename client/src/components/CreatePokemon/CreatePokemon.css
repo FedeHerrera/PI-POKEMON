@@ -1,0 +1,67 @@
+
+#form button{
+    background-color: rgb(154, 250, 159);
+    border-radius: 0.3rem;
+    border: none;
+    width: 5rem;
+    height: 2rem;
+    cursor: pointer;
+    margin: auto;
+    margin-top: 2rem;
+    font-size: large;
+}
+#background2 { 
+    width: 100vw;
+    min-height: 100vh;
+    background-color: #e5f1ec;
+  }
+#form{
+    margin-top: 33px;
+    background-color: #e5f1ec;
+}
+.type{
+    display: block;
+}
+.danger{
+    color: red;
+}
+.stats{
+   margin: 15px;
+   font-weight: bold;
+   display: flex;
+   justify-content: space-between;
+   padding: 0 33%;
+}
+.stats input{
+    float: right;
+}
+.stats textarea{
+    float: right;
+    width: 10.6rem;
+}
+#types{
+    border-style: inset;
+    border-color: rgb(139, 129, 213);
+    background-color: rgb(rgb(255, 140, 140));
+    width: 10.6rem;
+    margin: auto;
+    position: absolute;
+    top: 40px;
+    right: 16px;
+    font-size: 18px;
+}
+#types input{
+    float: right;
+
+}
+
+
+
+label{
+    margin-right: 2rem;
+}
+@media (width < 700px) {
+    .form{
+        padding: 0 0%;
+    }
+}
